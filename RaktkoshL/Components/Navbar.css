@@ -1,0 +1,68 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+.nav-item {
+  list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    
+}
+
+.login-button {
+  background-color: red;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.nul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    
+
+  }
+
+  .logo-container{
+    
+    display: flex;
+    align-content: left;
+    width : "30";
+    height: "30";
+    left: 20px;
+    
+    
+  }
+  
+  .logo {
+    height: 120px; /* Adjust the height as needed */
+    
+  }
+  
+  .logo-name {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    color: #000;
+    text-decoration: none;
+  }
+
+  .mainnav{
+
+    height: 50px; /* Adjust the height as needed */
+  padding: 0 15px; 
+    color: #000000;
+    align-items: self-end;/* Align items to the right */
+    background-color: #ffffff;
+
+
+
+  }

@@ -1,0 +1,29 @@
+/* src/components/Home.css */
+
+.home {
+  
+  background-color: #f9f9f9;
+ 
+}
+
+.main{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+/* src/App.css */
+/* src/App.css */
+.App {
+  padding: 16px;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
