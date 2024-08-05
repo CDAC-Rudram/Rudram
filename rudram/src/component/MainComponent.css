@@ -1,0 +1,33 @@
+.home-section {
+    padding: 20px;
+    text-align: center;
+    background-color: aliceblue;
+
+  }
+  
+  .hero-image {
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .mainComimages img {
+   max-width: 650px;
+   height: 450px;
+    margin: 10px 2.5%;
+    
+  }
+
+  .image2{
+  
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 9%;
+  }
+
+  .image1{
+  
+    border-bottom-left-radius: 20%;
+    border-top-left-radius: 9%;
+  }
+
+  
+  
