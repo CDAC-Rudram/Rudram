@@ -1,0 +1,89 @@
+/* Basic styling for the card container */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-block-end: 10px;
+    background-color: aliceblue;
+    padding: 5px;
+  }
+  
+  /* Styling for individual cards */
+  .card {
+    max-width: 300px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    width: 100%;
+   height: fit-content;
+    object-fit: cover;
+  
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card-content p {
+    font-size: 1rem;
+    color: #000000;
+    line-height: 1.6;
+  }
+  
+  .card-content .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .card-content .btn:hover {
+    background-color: #0057b3f5;
+    
+  }
+  
+  .stakeholders{
+    text-align: center;
+    padding:5px;
+  }
+  
+  .cardsroles{
+    text-align: center;
+    padding:50px;
+    border:50px;
+    background-color: aliceblue;
+  }
+  
+  .image1{
+    max-width: 150px;
+  }
+  
+  .image2{
+    max-width: 150px;
+  }
+  
+  .image3{
+    max-width: 150px;
+  }
+  
+  .image4{
+    max-width: 150px;
+  }

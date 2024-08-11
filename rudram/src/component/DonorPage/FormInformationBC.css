@@ -1,0 +1,94 @@
+/* Container for the two sections */
+.form-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.form-section {
+  width: 50%; /* Adjust the width as needed */
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Buttons */
+.next-button,
+button[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.next-button:hover,
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.terms-link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.livecheck {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center horizontally */
+  margin-top: 10px;
+}
+
+.livecheck input[type="checkbox"] {
+  margin-right: 8px; /* Space between checkbox and label */
+}
+
+
+.centered-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 85vh;
+}
+
+.form-wrapper {
+  max-width: 700px;
+  width: 100%;
+  padding-left: 30px;
+  background-color: #fbefef;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input,
+select{
+    display: flexbox;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 550px;
+    box-sizing: border-box;
+}

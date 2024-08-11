@@ -1,0 +1,29 @@
+.blood-centers {
+    margin-bottom: 20px;
+  }
+  
+  .center-cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .center-card {
+    width: 200px;
+    height: 150px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .center-info h3 {
+    margin: 0;
+  }
+  
+  .center-info p {
+    margin: 5px 0 0;
+  }
+  

@@ -1,0 +1,27 @@
+/* EducationalCorner.css */
+.educational-corner {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    max-width: 1200px;
+  }
+  
+  .educational-corner h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .educational-corner section {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .educational-corner section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .educational-corner section p {
+    margin-bottom: 10px;
+  }
+  
