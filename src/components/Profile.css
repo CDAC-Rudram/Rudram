@@ -1,0 +1,37 @@
+.profile-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .upload-button {
+    margin-top: 1rem;
+  }
+  
+  
+  .file-types {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+  }
+  
+  .role-text {
+    margin-top: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .form-section {
+    margin-top: 2rem;
+  }
+  
+  .form-section h5 {
+    margin-bottom: 1rem;
+  }
+  
+  .required-field::after {
+    content: " *";
+    color: red;
+  }
+  
+  .button-group {
+    margin-top: 2rem;
+  }
