@@ -1,0 +1,121 @@
+/* Container for the two sections */
+.donorform-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.donorform-section {
+  width: 50%; /* Adjust the width as needed */
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Buttons */
+.donornext-button,
+button[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.donornext-button:hover,
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.donorform-group {
+  margin-bottom: 15px;
+}
+
+.donorform-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.donorterms-link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.donorlivecheck {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center horizontally */
+  margin-top: 10px;
+}
+
+.donorlivecheck input[type="checkbox"] {
+  margin-right: 8px; /* Space between checkbox and label */
+}
+
+
+.donorcentered-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 85vh;
+}
+
+.donorform-wrapper {
+  max-width: 700px;
+  width: 100%;
+  padding-left: 30px;
+  background-color: #fbefef;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input,
+select{
+    display: flexbox;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 550px;
+    box-sizing: border-box;
+}
+
+.donorlivecheck {
+  position: relative;
+  cursor: pointer;
+}
+
+.tooltip {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Position above the checkbox */
+  left: 50%;
+  margin-left: -60px;
+  width: 120px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.donorlivecheck:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}

@@ -1,0 +1,13 @@
+.drive {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .drive .donation-drive {
+    margin-bottom: 2rem;
+    
+  }
+  
+  .drive h1 {
+    color: #f00;
+  }

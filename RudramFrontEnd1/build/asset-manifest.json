@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ca2bbdda.css",
+    "main.js": "/static/js/main.e1eccdce.js",
+    "static/js/453.5cdada47.chunk.js": "/static/js/453.5cdada47.chunk.js",
+    "static/media/cardimg7.jpg": "/static/media/cardimg7.20f36874454a477ff495.jpg",
+    "static/media/Hospital1.png": "/static/media/Hospital1.a627dfe5552eaaeeda34.png",
+    "static/media/Blooddonor.jpeg": "/static/media/Blooddonor.84dc1668005a8eebc57c.jpeg",
+    "static/media/cardimg9.jpg": "/static/media/cardimg9.de5ac76f2ab3b440ac5d.jpg",
+    "static/media/Bloodcamp.jpg": "/static/media/Bloodcamp.f1d3e3ff6a30bbf33ebc.jpg",
+    "static/media/savelife.jpg": "/static/media/savelife.3ea9c6115ebf6b45016b.jpg",
+    "static/media/cardimg3.jpg": "/static/media/cardimg3.a81c06b80cc49705602c.jpg",
+    "static/media/cardimg10.png": "/static/media/cardimg10.b6c30e24367848f88abc.png",
+    "static/media/DonorLogin.jpg": "/static/media/DonorLogin.6d9b81d8e91b7476ee41.jpg",
+    "static/media/cardimg2.jpg": "/static/media/cardimg2.c5bd86a2b81833a66d14.jpg",
+    "static/media/cardimg1.jpg": "/static/media/cardimg1.baf8dabd05de4101570a.jpg",
+    "static/media/BloodBankLogin.jpg": "/static/media/BloodBankLogin.bcfddb7d92d57baaff68.jpg",
+    "static/media/Background.jpg": "/static/media/Background.8eba49d274a50f1ab3bc.jpg",
+    "static/media/PatientLogin.png": "/static/media/PatientLogin.1cc6a95a346bf4b1b76d.png",
+    "static/media/cardimg5.jpg": "/static/media/cardimg5.7179d7687b050e9f32c7.jpg",
+    "static/media/logo.jpg": "/static/media/logo.64c149a945df693d2dec.jpg",
+    "static/media/cardimg4.jpg": "/static/media/cardimg4.1ac1a4544c0d74a4031c.jpg",
+    "static/media/BloodDonationLogin.jpg": "/static/media/BloodDonationLogin.015a1533397565862b63.jpg",
+    "static/media/HospitalLogin.jpg": "/static/media/HospitalLogin.217e8ab5285d68a1b938.jpg",
+    "static/media/Bloodcentericon.jpg": "/static/media/Bloodcentericon.f6d4fa280b80898c4127.jpg",
+    "static/media/cardimg6.jpg": "/static/media/cardimg6.407434e4893295a211a9.jpg",
+    "static/media/cardimg8.jpg": "/static/media/cardimg8.d52f54ad6e8e4ab6fc4f.jpg",
+    "index.html": "/index.html",
+    "main.ca2bbdda.css.map": "/static/css/main.ca2bbdda.css.map",
+    "main.e1eccdce.js.map": "/static/js/main.e1eccdce.js.map",
+    "453.5cdada47.chunk.js.map": "/static/js/453.5cdada47.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca2bbdda.css",
+    "static/js/main.e1eccdce.js"
+  ]
+}

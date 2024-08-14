@@ -1,0 +1,62 @@
+.donornavbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #050505;
+    padding-left: 20px;
+    
+    gap : 20px;
+  }
+ 
+  .blooddonorheading h1{
+    color: #ffffff;
+  }
+  
+
+
+  .donornavbar-links {
+    display: flex;
+    list-style: none;
+    gap : 20px;
+  }
+  
+  .donornavbar-links li {
+    margin: 0 40px;
+  }
+  
+  .donornavbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .donornavbar-profile img {
+    padding-right: 5px;
+    height: 50px;
+  }
+  
+
+  .donornavbar-links .active {
+    font-weight: bold;
+    color: #e4320a; /* Customize the active color */
+  }
+  
+  .donornavbar-links .donornavbar-item {
+    
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .donornavbar-links .donornavbar-itemlogout{
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    justify-content: flex-end;
+  }
+
+  .donornavbar-links .donornavbar-item:hover {
+    color: #007bff; /* Customize the hover color */
+  }
+  

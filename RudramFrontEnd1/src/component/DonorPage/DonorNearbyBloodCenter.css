@@ -1,0 +1,95 @@
+/* NearbyBloodCenters.css */
+
+.nearby-blood-centers-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fdfdfd;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.location-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5px;
+}
+
+label {
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="text"],
+select {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+select {
+  appearance: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.blood-centers-list {
+  margin-top: 20px;
+}
+
+.blood-centers-list h2 {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.blood-centers-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.blood-centers-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+  color: #444;
+}
+
+.blood-centers-list li:last-child {
+  border-bottom: none;
+}
+
+.blood-centers-list li h6{
+  color : black;
+  font-size: medium;
+  gap : 2px;
+ 
+}

@@ -1,0 +1,11 @@
+.coupon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.selected-coupon-msg {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: green;
+}

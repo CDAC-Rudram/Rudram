@@ -1,0 +1,75 @@
+.login-container {
+    width: 100%;
+    max-width: 2000px;
+    max-height: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.login-header {
+    background-color: #800000; /* Dark red */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.login-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+.login-image {
+    max-width: 600px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.login-form {
+    max-width: 50%;
+    text-align: center;
+}
+
+.login-form h2 {
+    color: #800000; /* Dark red */
+}
+
+.login-input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.reset-button, .submit-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.creset-button {
+    background-color: #ccc;
+    color: black;
+}
+
+.csubmit-button {
+    background-color: #800000; /* Dark red */
+    color: white;
+}
