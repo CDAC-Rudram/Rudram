@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.tabs {
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+}
+
+.tabs button.active {
+  background-color: #c0183b;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, select, button {
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #c0183b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: #f00;
+}
+
+.educational-corner {
+  display: flex;
+  gap: 20px;
+}
+
+.educational-corner > div {
+  background-color: #000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  flex: 1;
+}
+
+.educational-corner-info {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.educational-corner-info > div {
+  background-color: #c0183b;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-section {
+  margin-top: 20px;
+}
+
+.profile-options button {
+  margin-right: 10px;
+  background-color: #000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.profile-options button:hover {
+  background-color: #c0183b;
+}
+
+
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+
+
